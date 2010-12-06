@@ -1,0 +1,116 @@
+<html lang="en">
+<head>
+<title>GNU ACM VERSION Manual</title>
+<meta http-equiv="Content-Type" content="text/html">
+<meta name="description" content="GNU ACM VERSION Manual">
+<meta name="generator" content="makeinfo 4.13">
+<link title="Top" rel="start" href="#Top">
+<link href="http://www.gnu.org/software/texinfo/" rel="generator-home" title="Texinfo Homepage">
+<!--
+This file documents GNU ACM, the Aerial combat simulator.
+
+Copyright (C) 2010 Free Software Foundation, Inc.
+
+
+Permission is granted to copy, distribute and/or modify this document
+under the terms of the GNU Free Documentation License, Version 1.2 or
+any later version published by the Free Software Foundation; with no
+Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.  A
+copy of the license is included in the section entitled "GNU Free
+Documentation License".
+-->
+<meta http-equiv="Content-Style-Type" content="text/css">
+<style type="text/css"><!--
+  pre.display { font-family:inherit }
+  pre.format  { font-family:inherit }
+  pre.smalldisplay { font-family:inherit; font-size:smaller }
+  pre.smallformat  { font-family:inherit; font-size:smaller }
+  pre.smallexample { font-size:smaller }
+  pre.smalllisp    { font-size:smaller }
+  span.sc    { font-variant:small-caps }
+  span.roman { font-family:serif; font-weight:normal; } 
+  span.sansserif { font-family:sans-serif; font-weight:normal; } 
+--></style>
+</head>
+<body>
+<h1 class="settitle">GNU ACM VERSION Manual</h1>
+   <div class="contents">
+<h2>Table of Contents</h2>
+<ul>
+<li><a name="toc_Top" href="index.html#Top">ACM VERSION</a>
+<li><a name="toc_Overview" href="Overview.html#Overview">1 Overview</a>
+<li><a name="toc_Invoking" href="Invoking.html#Invoking">2 Invoking</a>
+<ul>
+<li><a href="Game-Options.html#Game-Options">2.1 Game Options</a>
+<li><a href="DIS-Options.html#DIS-Options">2.2 DIS Options</a>
+</li></ul>
+<li><a name="toc_Playing" href="Playing.html#Playing">3 Playing</a>
+<ul>
+<li><a href="How-to-Takeoff.html#How-to-Takeoff">3.1 How to Takeoff</a>
+<li><a href="Controlling-the-Engine.html#Controlling-the-Engine">3.2 Engine Controls</a>
+<li><a href="Looking-Around.html#Looking-Around">3.3 Looking Around</a>
+<li><a href="The-Head_002dUp-Display-_0028HUD_0029.html#The-Head_002dUp-Display-_0028HUD_0029">3.4 The Head-Up Display (HUD)</a>
+<li><a href="Using-your-Radar.html#Using-your-Radar">3.5 Using your Radar</a>
+<li><a href="Who_0027s-gunning-for-me_003f.html#Who_0027s-gunning-for-me_003f">3.6 Who's gunning for me?</a>
+<li><a href="Armaments.html#Armaments">3.7 Armaments</a>
+</li></ul>
+<li><a name="toc_Keyboard-Command-List" href="Keyboard-Command-List.html#Keyboard-Command-List">4 Keyboard Command List</a>
+<ul>
+<li><a href="Stick-and-Rudder-Controls.html#Stick-and-Rudder-Controls">4.1 Stick and Rudder Controls</a>
+<li><a href="Engine-Controls.html#Engine-Controls">4.2 Engine Controls</a>
+<li><a href="Radar-Controls.html#Radar-Controls">4.3 Radar Controls</a>
+<li><a href="Flaps.html#Flaps">4.4 Flaps</a>
+<li><a href="Speed-Brakes.html#Speed-Brakes">4.5 Speed Brakes</a>
+<li><a href="Weapon-Controls.html#Weapon-Controls">4.6 Weapon Controls</a>
+<li><a href="Pitch-Trim-Controls.html#Pitch-Trim-Controls">4.7 Pitch Trim Controls</a>
+<li><a href="View-Controls.html#View-Controls">4.8 View Controls (Numeric Keypad)</a>
+<li><a href="Other-Controls.html#Other-Controls">4.9 Other Controls</a>
+</li></ul>
+<li><a name="toc_Network-Play" href="Network-Play.html#Network-Play">5 Network Play</a>
+<ul>
+<li><a href="Requirements.html#Requirements">5.1 Requirements</a>
+</li></ul>
+<li><a name="toc_Copying-this-manual" href="Copying-this-manual.html#Copying-this-manual">Appendix A Copying this manual</a>
+<ul>
+<li><a href="GNU-Free-Documentation-License.html#GNU-Free-Documentation-License">A.1 GNU Free Documentation License</a>
+</li></ul>
+</li></ul>
+</div>
+
+
+
+<div class="node">
+<a name="Top"></a>
+<p>
+Next:&nbsp;<a rel="next" accesskey="n" href="Overview.html#Overview">Overview</a>,
+Previous:&nbsp;<a rel="previous" accesskey="p" href="../index.html#dir">(dir)</a>,
+Up:&nbsp;<a rel="up" accesskey="u" href="../index.html#dir">(dir)</a>
+<hr>
+</div>
+
+<h2 class="unnumbered">ACM VERSION</h2>
+
+<p>This file documents GNU ACM, the Aerial combat simulator.
+
+<!-- man begin COPYRIGHT -->
+   <p>Copyright &copy; 2010 Free Software Foundation, Inc.
+
+   <p>Permission is granted to copy, distribute and/or modify this document
+under the terms of the GNU Free Documentation License, Version 1.2 or
+any later version published by the Free Software Foundation; with no
+Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.  A
+copy of the license is included in the section entitled &ldquo;GNU Free
+Documentation License&rdquo;. 
+<!-- man end -->
+
+<ul class="menu">
+<li><a accesskey="1" href="Overview.html#Overview">Overview</a>:                     Features of ACM. 
+<li><a accesskey="2" href="Invoking.html#Invoking">Invoking</a>:                     ACM command-line arguments. 
+<li><a accesskey="3" href="Playing.html#Playing">Playing</a>:                      How to play. 
+<li><a accesskey="4" href="Keyboard-Command-List.html#Keyboard-Command-List">Keyboard Command List</a>:        List of assigned key bindings. 
+<li><a accesskey="5" href="Network-Play.html#Network-Play">Network Play</a>:                 Playing with a friend. 
+<li><a accesskey="6" href="Copying-this-manual.html#Copying-this-manual">Copying this manual</a>:          You may give out copies of this manual. 
+</ul>
+
+   </body></html>
+
