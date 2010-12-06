@@ -1,7 +1,7 @@
 Table of Contents
 *****************
 
-ACM VERSION
+ACM 5.1
 1 Overview
 2 Invoking
   2.1 Game Options
@@ -30,8 +30,8 @@ Appendix A Copying this manual
   A.1 GNU Free Documentation License
 
 
-ACM VERSION
-***********
+ACM 5.1
+*******
 
 This file documents GNU ACM, the Aerial combat simulator.
 
@@ -890,7 +890,7 @@ permit their use in free software.
 Table of Contents
 *****************
 
-ACM VERSION
+ACM 5.1
 1 Overview
 2 Invoking
   2.1 Game Options
